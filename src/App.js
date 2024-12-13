@@ -21,7 +21,6 @@ function App() {
     <div >
       <h1>My Website</h1>
       <h3>My name is { userName } </h3>
-      <p>URL: { process.env.URL } </p>
     </div>
   );
 }
