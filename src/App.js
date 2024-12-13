@@ -22,7 +22,7 @@ function App() {
       <h1>My Website</h1>
       <h3>My name is { userName } </h3>
       <p>URL: { process.env.VITE_APP_URL } </p>
-    <p>META: { import.meta } </p>
+    <p>META: { import.meta.env } </p>
     </div>
   );
 }
